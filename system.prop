@@ -38,6 +38,8 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.use_color_management=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 debug.cpurend.vsync=false
+sys.display-size=1920x1080
+vendor.video.disable.ubwc=1
 
 # DPM
 persist.dpm.feature=1
