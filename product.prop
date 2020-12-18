@@ -21,5 +21,12 @@ ro.build.shutdown_timeout=2
 # Telephony
 ro.telephony.default_network=22,20
 
+# Power-saving props
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Zygote Preforking
 persist.device.config.runtime_native.uasp_pool_enabled=true
