@@ -28,5 +28,8 @@ ro.ril.disable.power.collapse=0
 power.saving.mode=1
 pm.sleep_mode=1
 
+# Vulkan
+debug.hwui.renderer=skiavk
+
 # Zygote Preforking
 persist.device.config.runtime_native.uasp_pool_enabled=true
