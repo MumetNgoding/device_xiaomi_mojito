@@ -56,6 +56,9 @@ TARGET_USE_QTI_BT_STACK := true
 # BrokenHome
 BUILD_BROKEN_DUP_RULES := true
 
+# BrokenHome
+BUILD_BROKEN_DUP_RULES := true
+
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
