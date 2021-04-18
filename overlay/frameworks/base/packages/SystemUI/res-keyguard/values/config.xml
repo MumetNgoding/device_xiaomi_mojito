@@ -23,6 +23,16 @@
     <!-- Threshold in micro watts below which a charger is rated as "slow"; 0.50 A @ 4.00 V = 2.00 W -->
     <integer name="config_chargingSlowlyThreshold">2000000</integer>
 
+    <!-- The padding on the side of the navigation bar. Must be greater than or equal to
+         navigation_extra_key_width -->
+    <dimen name="navigation_side_padding">85dp</dimen>
+
+    <!-- The padding around the statusbar -->
+    <dimen name="status_bar_padding_top">8dp</dimen>
+    <dimen name="status_bar_padding_start">6dp</dimen>
+    <dimen name="status_bar_padding_end">6dp</dimen>
+    <dimen name="rounded_corner_content_padding">16dp</dimen>
+
     <!-- Threshold in micro watts above which a charger is rated as "fast"; 1.375 A @ 4.00 V = 5.50 W -->
     <integer name="config_chargingFastThreshold">5500000</integer>
 </resources>
