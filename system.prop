@@ -44,6 +44,9 @@ persist.dpm.feature=1
 # Fingerprint
 ro.hardware.fp.sideCap=true
 
+# Scroll optimization
+ro.vendor.perf.scroll_opt=true
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
