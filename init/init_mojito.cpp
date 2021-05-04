@@ -55,8 +55,8 @@ void vendor_load_properties()
 
     string hwname = GetProperty("ro.boot.hwname", "");
 
-    string fingerprint = "google/sunfish/sunfish:11/RQ2A.210405.005/7181113:user/release-keys";
-    string description = "sunfish-user 11 RQ2A.210405.005 7181113 release-keys";
+    string fingerprint = "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys";
+    string description = "redfin-user 11 RQ2A.210505.003 7255357 release-keys";
 
     if (hwname == "sunny") {
         device = "sunny";
